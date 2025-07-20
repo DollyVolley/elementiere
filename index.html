@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementiere - Improvisationstheater Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="compact-header">
+            <h1 class="app-title">Elementiere</h1>
+        </header>
+
+        <main class="main-content">
+            <div class="pair-display">
+                <div class="pair-card">
+                    <div class="pair-row">
+                        <div class="element-section">
+                            <div class="section-header">Element</div>
+                            <div class="section-content">
+                                <h2 id="elementName" class="name">Feuer</h2>
+                                <p id="elementDescription" class="description">Das Element der Leidenschaft, Energie und
+                                    Transformation. Bringt Wärme und Lebenskraft.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="divider">+</div>
+                        <div class="tier-section">
+                            <div class="section-header">Tier</div>
+                            <div class="section-content">
+                                <h2 id="animalName" class="name">Bär</h2>
+                                <p id="animalDescription" class="description">Ein mächtiges und imposantes Waldtier, das
+                                    für seine Stärke und seinen Mut bekannt ist.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-section">
+                <button id="generateBtn" class="generate-btn">
+                    Neues Paar
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

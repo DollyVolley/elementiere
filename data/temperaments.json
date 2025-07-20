@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Feuer",
+    "description": "Du bist impulsiv, leidenschaftlich und voller Energie. Du bist mutig, entschlossen und gehst Herausforderungen direkt an. Deine innere Flamme treibt dich zu großen Taten an, manchmal aber auch zu vorschnellen Entscheidungen."
+  },
+  {
+    "id": 2,
+    "name": "Erde",
+    "description": "Du bist geduldig, zuverlässig und praktisch veranlagt. Du schätzt Stabilität und Beständigkeit in deinem Leben. Du bist bodenständig, durchdacht und bevorzugst bewährte Wege vor riskanten Experimenten."
+  },
+  {
+    "id": 3,
+    "name": "Wasser",
+    "description": "Du bist emotional, intuitiv und sehr anpassungsfähig. Du spürst Stimmungen und Atmosphären intensiv und lässt dich von deinen Gefühlen leiten. Du bist tiefgründig und nachdenklich, manchmal aber auch launisch."
+  },
+  {
+    "id": 4,
+    "name": "Luft",
+    "description": "Du bist leichtfüßig, kreativ und voller Ideen. Du liebst geistige Herausforderungen und neue Erfahrungen. Du bist kommunikativ und neugierig, manchmal aber auch unbeständig und sprunghaft in deinen Interessen."
+  }
+]

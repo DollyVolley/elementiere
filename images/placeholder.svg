@@ -1,0 +1,11 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F7FAFC"/>
+  <circle cx="200" cy="120" r="40" fill="#E2E8F0"/>
+  <rect x="160" y="180" width="80" height="60" rx="10" fill="#E2E8F0"/>
+  <circle cx="185" cy="110" r="5" fill="#4A5568"/>
+  <circle cx="215" cy="110" r="5" fill="#4A5568"/>
+  <path d="M190 125 Q200 135 210 125" stroke="#4A5568" stroke-width="2" fill="none"/>
+  <text x="200" y="270" text-anchor="middle" fill="#718096" font-family="Inter, sans-serif" font-size="14">
+    Animal Image Placeholder
+  </text>
+</svg>

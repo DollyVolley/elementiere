@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Bär",
+    "description": "Du bist beschützend und sorgst für andere. In Beziehungen bist du verlässlich und hilfst gerne, wirkst aber manchmal übermächtig auf andere.",
+    "image": "images/baer.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Frosch",
+    "description": "Du redest viel und springst von Thema zu Thema. In Gesprächen dominierst du oft, hörst aber nicht immer aufmerksam zu. Anderen gegenüber wirkst du manchmal oberflächlich.",
+    "image": "images/frosch.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Igel",
+    "description": "Du bist in sozialen Situationen oft zögerlich und misstrauisch. Du igelst dich ein, wenn dir etwas zu viel wird, und wirkst auf andere manchmal stachelig oder unzugänglich.",
+    "image": "images/igel.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bissiger Hund",
+    "description": "Du verteidigst dein Territorium und deine Meinungen aggressiv. In Konflikten gehst du schnell zum Angriff über und wirkst auf andere oft bedrohlich oder einschüchternd.",
+    "image": "images/hund.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Giraffe",
+    "description": "Du schaust auf andere herab und verhältst dich oft arrogant. In Gesprächen wirkst du überheblich und zeigst wenig Interesse an den Problemen anderer.",
+    "image": "images/giraffe.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Desinteressiertes Nilpferd",
+    "description": "Du wirkst träge und gleichgültig in sozialen Situationen. Andere müssen sich sehr anstrengen, um deine Aufmerksamkeit zu bekommen. Du reagierst nur langsam auf die Bedürfnisse anderer.",
+    "image": "images/nilpferd.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Schüchternes Schäfchen",
+    "description": "Du folgst anderen blind und traust dich selten, deine eigene Meinung zu äußern. In Gruppen suchst du Schutz und Führung, wirkst aber manchmal zu unterwürfig.",
+    "image": "images/lamm.jpg"
+  }
+]
