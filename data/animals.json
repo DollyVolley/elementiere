@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "name": "Bär",
+    "name": "Sanfter Bär",
     "description": "Beschützend und fürsorglich. Hilfst gerne, wirkst manchmal übermächtig.",
     "image": "images/baer.svg"
   },
   {
     "id": 2,
-    "name": "Frosch",
+    "name": "Babbelnder Frosch",
     "description": "Redest viel, springst zwischen Themen. Dominierst Gespräche.",
     "image": "images/frosch.svg"
   },
   {
     "id": 3,
-    "name": "Igel",
+    "name": "Nörgelnder Igel",
     "description": "Zynisch, zigantisch und misstrauisch. Ziehst dich zurück, wenn es zu viel wird.",
     "image": "images/igel.svg"
   },
@@ -25,7 +25,7 @@
   },
   {
     "id": 5,
-    "name": "Giraffe",
+    "name": "Hochnäsige Giraffe",
     "description": "Schaust auf andere herab. Verhältst dich arrogant und überheblich.",
     "image": "images/giraffe.svg"
   },
