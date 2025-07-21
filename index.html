@@ -55,8 +55,52 @@
                 <button id="generateBtn" class="shuffle-btn">
                     Shuffle
                 </button>
+                <button id="generatePromptBtn" class="prompt-btn">
+                    KI-Prompt erstellen
+                </button>
             </div>
         </main>
+    </div>
+
+    <!-- Character Generation Modal -->
+    <div id="characterModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>KI-Prompt für Charakterbeschreibung</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p class="modal-description">
+                    Kopiere den folgenden Prompt und füge ihn in ChatGPT, Claude oder eine andere KI deiner Wahl ein:
+                </p>
+                <div class="prompt-container">
+                    <textarea id="generatedPrompt" class="prompt-textarea" readonly></textarea>
+                    <div class="prompt-actions">
+                        <button id="copyPrompt" class="copy-btn">
+                            <span class="copy-text">Prompt kopieren</span>
+                            <span class="copy-success" style="display: none;">✓ Kopiert!</span>
+                        </button>
+                        <button id="generateWithAI" class="ai-generate-btn">
+                            <span class="generate-text">✨ Mit KI generieren</span>
+                            <span class="generating-text" style="display: none;">🔄 Generiere...</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="aiResult" class="ai-result" style="display: none;">
+                    <h4 class="result-title">KI-Generierte Charakterbeschreibung:</h4>
+                    <div id="characterDescription" class="character-description"></div>
+                </div>
+                <div class="llm-links">
+                    <p class="links-title">Empfohlene KI-Assistenten:</p>
+                    <div class="llm-buttons">
+                        <a href="https://chat.openai.com/" target="_blank" class="llm-btn chatgpt">ChatGPT</a>
+                        <a href="https://claude.ai/" target="_blank" class="llm-btn claude">Claude</a>
+                        <a href="https://gemini.google.com/" target="_blank" class="llm-btn gemini">Gemini</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>

@@ -34,7 +34,72 @@
                     <!-- Animals will be loaded here -->
                 </div>
             </section>
+
+            <section class="overview-section character-generator">
+                <h2 class="section-title">Charakter Generator</h2>
+                <p class="section-description">
+                    Kombiniere ein Element mit einem Tier, um eine detaillierte Charakterbeschreibung zu erstellen.
+                </p>
+                <div class="character-form">
+                    <div class="selection-group">
+                        <label for="elementSelect" class="selection-label">Element wählen:</label>
+                        <select id="elementSelect" class="selection-dropdown">
+                            <option value="">-- Wähle ein Element --</option>
+                        </select>
+                    </div>
+                    <div class="selection-group">
+                        <label for="animalSelect" class="selection-label">Tier wählen:</label>
+                        <select id="animalSelect" class="selection-dropdown">
+                            <option value="">-- Wähle ein Tier --</option>
+                        </select>
+                    </div>
+                    <button id="generateCharacter" class="generate-btn" disabled>
+                        Prompt generieren
+                    </button>
+                </div>
+            </section>
         </main>
+    </div>
+
+    <!-- Character Generation Modal -->
+    <div id="characterModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>KI-Prompt für Charakterbeschreibung</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p class="modal-description">
+                    Kopiere den folgenden Prompt und füge ihn in ChatGPT, Claude oder eine andere KI deiner Wahl ein:
+                </p>
+                <div class="prompt-container">
+                    <textarea id="generatedPrompt" class="prompt-textarea" readonly></textarea>
+                    <div class="prompt-actions">
+                        <button id="copyPrompt" class="copy-btn">
+                            <span class="copy-text">Prompt kopieren</span>
+                            <span class="copy-success" style="display: none;">✓ Kopiert!</span>
+                        </button>
+                        <button id="generateWithAI" class="ai-generate-btn">
+                            <span class="generate-text">✨ Mit KI generieren</span>
+                            <span class="generating-text" style="display: none;">🔄 Generiere...</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="aiResult" class="ai-result" style="display: none;">
+                    <h4 class="result-title">KI-Generierte Charakterbeschreibung:</h4>
+                    <div id="characterDescription" class="character-description"></div>
+                </div>
+                <div class="llm-links">
+                    <p class="links-title">Empfohlene KI-Assistenten:</p>
+                    <div class="llm-buttons">
+                        <a href="https://chat.openai.com/" target="_blank" class="llm-btn chatgpt">ChatGPT</a>
+                        <a href="https://claude.ai/" target="_blank" class="llm-btn claude">Claude</a>
+                        <a href="https://gemini.google.com/" target="_blank" class="llm-btn gemini">Gemini</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="overview.js"></script>
