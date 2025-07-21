@@ -6,8 +6,10 @@ let elementsData = [];
 const pairCard = document.querySelector('.pair-card');
 const animalName = document.getElementById('animalName');
 const animalDescription = document.getElementById('animalDescription');
+const animalImage = document.getElementById('animalImage');
 const elementName = document.getElementById('elementName');
 const elementDescription = document.getElementById('elementDescription');
+const elementImage = document.getElementById('elementImage');
 const generateBtn = document.getElementById('generateBtn');
 
 // Initialize the application
@@ -82,8 +84,13 @@ function displayPair(animal, element) {
     // Update content
     animalName.textContent = animal.name;
     animalDescription.textContent = animal.description;
+    animalImage.src = animal.image || 'images/placeholder.svg';
+    animalImage.alt = animal.name;
+    
     elementName.textContent = element.name;
     elementDescription.textContent = element.description;
+    elementImage.src = element.image || 'images/placeholder.svg';
+    elementImage.alt = element.name;
 
     // Add animation
     pairCard.style.animation = 'none';

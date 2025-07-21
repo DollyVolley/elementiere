@@ -13,41 +13,44 @@
 
 <body>
     <div class="container">
-        <header class="compact-header">
+        <header class="small-header">
             <h1 class="app-title">Elementiere</h1>
         </header>
 
-        <main class="main-content">
-            <div class="pair-display">
+        <main class="content-wrapper">
+            <div class="card-section">
                 <div class="pair-card">
                     <div class="pair-row">
                         <div class="element-section">
                             <div class="section-header">Element</div>
                             <div class="section-content">
+                                <div class="image-container">
+                                    <img id="elementImage" class="element-image" src="images/feuer.svg" alt="Element">
+                                </div>
                                 <h2 id="elementName" class="name">Feuer</h2>
-                                <p id="elementDescription" class="description">Das Element der Leidenschaft, Energie und
-                                    Transformation. Bringt Wärme und Lebenskraft.</p>
+                                <p id="elementDescription" class="description">Impulsiv, leidenschaftlich, mutig. Gehst Herausforderungen direkt an.</p>
                             </div>
                         </div>
 
-
                         <div class="divider">+</div>
+                        
                         <div class="tier-section">
                             <div class="section-header">Tier</div>
                             <div class="section-content">
+                                <div class="image-container">
+                                    <img id="animalImage" class="animal-image" src="images/baer.svg" alt="Tier">
+                                </div>
                                 <h2 id="animalName" class="name">Bär</h2>
-                                <p id="animalDescription" class="description">Ein mächtiges und imposantes Waldtier, das
-                                    für seine Stärke und seinen Mut bekannt ist.</p>
+                                <p id="animalDescription" class="description">Beschützend und fürsorglich. Hilfst gerne, wirkst manchmal übermächtig.</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
 
-            <div class="action-section">
-                <button id="generateBtn" class="generate-btn">
-                    Neues Paar
+            <div class="button-section">
+                <button id="generateBtn" class="shuffle-btn">
+                    Shuffle
                 </button>
             </div>
         </main>

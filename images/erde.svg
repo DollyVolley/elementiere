@@ -1,0 +1,16 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#8B4513" stroke="#A0522D" stroke-width="2"/>
+  
+  <!-- Mountain layers -->
+  <path d="M10 60 L25 35 L40 50 L55 30 L70 60 Z" fill="#654321"/>
+  <path d="M15 60 L30 40 L45 55 L60 35 L75 60 Z" fill="#8B4513"/>
+  
+  <!-- Ground layer -->
+  <rect x="10" y="60" width="60" height="15" fill="#654321"/>
+  
+  <!-- Small stones/crystals -->
+  <circle cx="25" cy="55" r="2" fill="#A0522D"/>
+  <circle cx="55" cy="52" r="2" fill="#A0522D"/>
+  <circle cx="40" cy="58" r="1.5" fill="#A0522D"/>
+</svg>

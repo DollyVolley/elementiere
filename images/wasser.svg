@@ -1,0 +1,14 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#4682B4" stroke="#5F9EA0" stroke-width="2"/>
+  
+  <!-- Water waves -->
+  <path d="M10 45 Q20 35, 30 45 Q40 55, 50 45 Q60 35, 70 45" fill="#87CEEB" opacity="0.8"/>
+  <path d="M10 55 Q25 45, 40 55 Q55 65, 70 55" fill="#B0E0E6" opacity="0.9"/>
+  <path d="M10 35 Q25 25, 40 35 Q55 45, 70 35" fill="#ADD8E6" opacity="0.7"/>
+  
+  <!-- Water droplets -->
+  <ellipse cx="25" cy="30" rx="2" ry="3" fill="#E0F6FF"/>
+  <ellipse cx="55" cy="28" rx="2" ry="3" fill="#E0F6FF"/>
+  <ellipse cx="40" cy="25" rx="1.5" ry="2.5" fill="#E0F6FF"/>
+</svg>

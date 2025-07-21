@@ -1,0 +1,31 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#8B4513" stroke="#A0522D" stroke-width="2"/>
+  
+  <!-- Dog head -->
+  <ellipse cx="40" cy="45" rx="18" ry="15" fill="#654321"/>
+  
+  <!-- Snout (aggressive) -->
+  <ellipse cx="40" cy="52" rx="8" ry="6" fill="#8B4513"/>
+  
+  <!-- Ears (alert, pointed) -->
+  <path d="M25 35 L20 20 L35 30 Z" fill="#654321"/>
+  <path d="M55 35 L60 20 L45 30 Z" fill="#654321"/>
+  
+  <!-- Eyes (angry, intense) -->
+  <circle cx="33" cy="38" r="3" fill="#FF0000"/>
+  <circle cx="47" cy="38" r="3" fill="#FF0000"/>
+  <circle cx="33" cy="38" r="2" fill="#000"/>
+  <circle cx="47" cy="38" r="2" fill="#000"/>
+  
+  <!-- Nose -->
+  <ellipse cx="40" cy="50" rx="2" ry="1.5" fill="#000"/>
+  
+  <!-- Mouth (snarling) -->
+  <path d="M32 54 Q40 58 48 54" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Teeth (showing aggression) -->
+  <rect x="36" y="56" width="2" height="4" fill="#FFF"/>
+  <rect x="40" y="57" width="2" height="3" fill="#FFF"/>
+  <rect x="44" y="56" width="2" height="4" fill="#FFF"/>
+</svg>

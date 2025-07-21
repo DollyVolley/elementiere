@@ -1,0 +1,38 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#F5F5DC" stroke="#DDBEA9" stroke-width="2"/>
+  
+  <!-- Sheep body (fluffy) -->
+  <ellipse cx="40" cy="50" rx="22" ry="18" fill="#FFFAF0"/>
+  
+  <!-- Wool texture (cloudy bumps) -->
+  <circle cx="25" cy="45" r="4" fill="#F8F8FF"/>
+  <circle cx="35" cy="40" r="5" fill="#F8F8FF"/>
+  <circle cx="45" cy="40" r="5" fill="#F8F8FF"/>
+  <circle cx="55" cy="45" r="4" fill="#F8F8FF"/>
+  <circle cx="30" cy="55" r="4" fill="#F8F8FF"/>
+  <circle cx="50" cy="55" r="4" fill="#F8F8FF"/>
+  <circle cx="40" cy="60" r="4" fill="#F8F8FF"/>
+  
+  <!-- Head (small, timid) -->
+  <ellipse cx="40" cy="30" rx="10" ry="8" fill="#FFFAF0"/>
+  
+  <!-- Eyes (large, innocent, looking down) -->
+  <circle cx="36" cy="28" r="3" fill="#000"/>
+  <circle cx="44" cy="28" r="3" fill="#000"/>
+  <circle cx="36" cy="27" r="1" fill="#FFF"/>
+  <circle cx="44" cy="27" r="1" fill="#FFF"/>
+  
+  <!-- Nose -->
+  <ellipse cx="40" cy="32" rx="1.5" ry="1" fill="#000"/>
+  
+  <!-- Ears (droopy) -->
+  <ellipse cx="32" cy="25" rx="3" ry="6" fill="#F5DEB3"/>
+  <ellipse cx="48" cy="25" rx="3" ry="6" fill="#F5DEB3"/>
+  
+  <!-- Legs (thin, delicate) -->
+  <rect x="32" y="65" width="3" height="8" fill="#8B7355"/>
+  <rect x="37" y="65" width="3" height="8" fill="#8B7355"/>
+  <rect x="43" y="65" width="3" height="8" fill="#8B7355"/>
+  <rect x="48" y="65" width="3" height="8" fill="#8B7355"/>
+</svg>

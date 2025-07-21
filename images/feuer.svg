@@ -1,0 +1,11 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#FF4500" stroke="#FF6347" stroke-width="2"/>
+  
+  <!-- Flame shape -->
+  <path d="M40 15 C35 22, 30 30, 32 40 C34 50, 38 55, 40 50 C42 55, 46 50, 48 40 C50 30, 45 22, 40 15 Z" fill="#FFD700"/>
+  <path d="M40 20 C37 25, 35 32, 36 38 C37 44, 39 47, 40 44 C41 47, 43 44, 44 38 C45 32, 43 25, 40 20 Z" fill="#FFA500"/>
+  
+  <!-- Inner flame -->
+  <path d="M40 25 C38 28, 37 33, 38 36 C39 39, 40 40, 40 38 C40 40, 41 39, 42 36 C43 33, 42 28, 40 25 Z" fill="#FF6347"/>
+</svg>
